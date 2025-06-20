@@ -40,7 +40,7 @@ body {
 .subjects{
   height: 150px;
   width: 220px;
-}*/
+}
 .subjects-offered{
   padding: 50px 20px;
   text-align: center;
@@ -65,7 +65,7 @@ body {
   box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
   text-align: center;
   transition: 0.3s;
-  margin-bottom: 20px;
+  
 }
 .subject img {
   width: 270px;
