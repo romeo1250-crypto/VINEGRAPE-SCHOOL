@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!--<title>Admissions | Vinegrape Academy</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">-->
+</head>
+<body>
+
+  <header class="nav-header">
+    <div class="logo">VINEGRAPE ACADEMY</div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="staff.html">Staff</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admissions - Vinegrape Academy</title>
+  <style>
+    /*navigation*/
+.nav-header {
+  background-color: navy;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.main-nav ul li a:hover {
+  text-decoration: underline;
+}
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+      color: #002147; /* Navy Blue */
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #002147;
+      color: #ffffff;
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    .admission-form {
+      max-width: 700px;
+      margin: auto;
+      background-color: #f9f9f9;
+      padding: 2rem;
+      border: 2px solid #dc143c; /* Red */
+      border-radius: 10px;
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+      color: #002147;
+      font-weight: bold;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.3rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #dc143c;
+      color: #ffffff;
+      border: none;
+      padding: 1rem 2rem;
+      margin-top: 1.5rem;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button:hover {
+  background-color: rgb(13, 4, 94);
+}
+
+    footer {
+      background-color: #002147;
+      color: #ffffff;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Admissions</h1>
+    <p>Ruiru, Kiambu County, Kenya</p>
+  </header>
+
+  <main>
+    <h2>Apply for Admission</h2>
+    <p>Please fill out the form below to apply for admission to Vinegrape Academy.</p>
+
+    <div class="admission-form">
+      <form>
+        <label for="student-name">Student Full Name:</label>
+        <input type="text" id="student-name" name="student-name" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="grade">Grade Applying For:</label>
+        <select id="grade" name="grade" required>
+          <option value="">Select Grade </option>
+          <option value="PP1">PP1</option>
+          <option value="PP2">PP2</option>
+          <option value="Grade 1">Grade 1</option>
+          <option value="Grade 2">Grade 2</option>
+          <option value="Grade 3">Grade 3</option>
+          <option value="Grade 4">Grade 4</option>
+          <option value="Grade 5">Grade 5</option>
+          <option value="Grade 6">Grade 6</option>
+          <option value="Grade 7">Grade 7</option>
+          <option value="Grade 8">Grade 8</option>
+          <option value="Grade 9">Grade 9</option>
+
+
+          <!-- add more grades as needed -->
+        </select>
+
+        <label for="guardian-name">Parent/Guardian Full Name:</label>
+        <input type="text" id="guardian-name" name="guardian-name" required>
+
+        <label for="email">Contact Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="message">Additional Information:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tell us anything you'd like us to know..."></textarea>
+
+        <button type="submit">Submit Application</button>
+      </form>
+    </div>
+  </main>
+
+  <!--<footer>
+    <p>&copy; 2025 Vinegrape Academy | Ruiru, Kiambu County</p>
+  </footer>-->
+
+
+  <!--<section class="content-section">
+    <div class="container">
+      <h1>Admissions</h1>
+      <p>Vinegrape Academy welcomes learners from all backgrounds who are eager to learn and grow.</p>
+
+      <h2>Admission Requirements</h2>
+      <ul>
+        <li>Completed application form</li>
+        <li>Copy of birth certificate</li>
+        <li>Two passport-size photos</li>
+        <li>Previous school report (if applicable)</li>
+        <li>Parent/Guardian ID copy</li>
+      </ul>
+
+      <h2>Enrollment Process</h2>
+      <ol>
+        <li>Visit the school for an inquiry and guided tour</li>
+        <li>Submit required documents</li>
+        <li>Attend interview (if applicable)</li>
+        <li>Receive admission letter</li>
+        <li>Pay admission and term fees</li>
+      </ol>
+
+      <p><strong>Note:</strong> Enrollment is done throughout the year depending on availability.</p>
+
+      <div class="placeholder-img">
+        <img src="assets/img/placeholder-admissions.jpg" alt="Admissions" />
+      </div>
+    </div>
+  </section>-->
+
+  <footer>
+    <p>&copy; 2025 Vinegrape Academy - Ruiru, KIhunguro</p>
+    <p>Email: <a href="mailto:directorvinegrape@gmail.com">directorvinegrape@gmail.com</a></p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

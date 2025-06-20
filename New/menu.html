@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinegrape Menu Slide</title>
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+
+  <header>
+    <button id="openMenu">☰</button>
+  </header>
+
+  <div class="overlay" id="menuOverlay">
+    <div class="form-section">
+      <h2>Join Us Today</h2>
+      <form>
+        <label for="name">Name*</label>
+        <input type="text" id="name" placeholder="Your name" required>
+
+        <label for="phone">Phone number*</label>
+        <input type="text" id="phone" placeholder="+254..." required>
+
+        <label for="email">Email*</label>
+        <input type="email" id="email" placeholder="you@example.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="3" placeholder="Write your message..."></textarea>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+
+    <div class="menu-section">
+      <button id="closeMenu">&times;</button>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Admission</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Our Story</a></li>
+        </ul>
+      </nav>
+      <div class="contact-info">
+        <p><i class="material-icons">call</i> +254 113 228 064</p>
+        <p><i class="material-icons">access_time</i> Mon - Fri 8AM - 5PM</p>
+        <p><i class="material-icons">location_on</i> Ruiru, Kihunguro</p>
+        <div class="socials">
+          <i class="material-icons">facebook</i>
+          <i class="material-icons">twitter</i>
+          <i class="material-icons">whatsapp</i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>document.getElementById("openMenu").addEventListener("click", function () {
+  document.getElementById("menuOverlay").classList.add("active");
+});
+
+document.getElementById("closeMenu").addEventListener("click", function () {
+  document.getElementById("menuOverlay").classList.remove("active");
+});</script>
+</body>
+</html>

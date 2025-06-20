@@ -1,0 +1,27 @@
+VINEGRAPE-SCHOOL-website/
+│
+├── index.html                  # Homepage
+├── about.html                  # About the school
+├── admissions.html            # How to enroll
+├── academics.html             # Classes, curriculum
+├── staff.html                 # Teachers and staff
+├── contact.html               # Contact info and map/form
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css           # Main stylesheet
+│   ├── js/
+│   │   └── script.js           # Optional JavaScript
+│   ├── img/
+│   │   ├── logo.png
+│   │   ├── school-building.jpg
+│   │   └── staff/              # Staff portraits
+│   └── pdf/
+│       ├── fee-structure.pdf
+│       └── term-calendar.pdf
+│
+├── fonts/                      # Optional custom fonts
+├── docs/
+│   └── site-documentation.txt  # This file (docs for the dev)
+├── README.md                   # Quick project overview
+└── .gitignore                  # For GitHub if needed
