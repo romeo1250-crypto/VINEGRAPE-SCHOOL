@@ -81,7 +81,7 @@ body {
 }
 /*About section of the about.html*/
 .about {
-  max-height: 220px;
+  max-height: 240px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
